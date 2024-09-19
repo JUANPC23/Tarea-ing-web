@@ -1,0 +1,74 @@
+body {
+    background-color: #1c2838;
+}
+
+.P1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.precio1 {
+    color: #F72335;
+    font-size: 12px;
+}
+
+
+.img1 {
+    height: 68px;
+    width: 184px;
+}
+
+
+table {
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+th, td {
+    width: 300px;
+    
+}
+.hola {
+    border: solid;
+    color: white;
+}
+
+.final{
+    background-color: #edede8;
+    color: rgb(7, 6, 6);
+}
+
+
+/* navegacion */
+.btnnav {
+    border-radius: 5%;
+    margin-right: 5px;
+}
+
+.BTNedit {
+    animation-name: cambiocolor;
+    animation-duration: 10s;
+}
+
+.BTNedit:hover {
+    background-color: #F72335;
+    transition: background-color 2s;
+    animation-name: cambiocolor;
+    animation-duration: 10s;
+}
+
+@keyframes cambiocolor {
+    0% {
+      background-color: #E8C40C;
+    }
+    25% {
+      background-color: #ABE80C;
+    }
+    75% {
+      background-color: #0CE8B1;
+    }
+    100% {
+      background-color: #130CE8;
+    }
+  } 
